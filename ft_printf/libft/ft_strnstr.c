@@ -6,16 +6,16 @@
 /*   By: yolee <yolee@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 17:40:16 by yolee             #+#    #+#             */
-/*   Updated: 2022/01/04 02:38:05 by yolee            ###   ########.fr       */
+/*   Updated: 2022/08/10 15:08:52 by yolee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 static void	ft_skip(const char h_chr,
-	 const char *needle,
-	 size_t n_idx,
-	 size_t *h_idx)
+	const char *needle,
+	size_t n_idx,
+	size_t *h_idx)
 {
 	size_t	skip;
 
